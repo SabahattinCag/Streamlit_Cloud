@@ -1,0 +1,10 @@
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host alias
+    HostName hostname
+    User user
+
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host deployment
+    HostName 50.16.177.194
+    User ec2-user
+    IdentityFile "C:\Users\mathe\OneDrive\Desktop\AWS-keypair\deployment1.pem"
